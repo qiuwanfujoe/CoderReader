@@ -1,0 +1,59 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+	<head>
+		<meta http-equiv=\"content-type\" content=\"text/html; charset=UTF-8\">
+
+		<style type="text/css">
+			#header_bkg {
+				margin: 0 auto;
+				width: 680px;
+				height: 390px;
+				background: url("input_bg.jpg");
+			}
+
+			#body_content {
+				margin: -40px auto;
+				width: 960px;
+			}
+
+			#upload_btn, #submit_btn
+			{
+				border: none;
+				width: 260px;
+				height: 80px;
+				background-color: rgb(106,197,113);
+				color: #fff;
+				font-size: 23px;
+				cursor: pointer;
+			}
+			#submit_btn
+			{
+				margin-left: 295px;
+			}
+			#upload_btn
+			{
+				margin-left: -420px;
+			}
+			#upload_cotrol
+			{
+				margin-left: 470px;
+			}
+
+		</style>
+	</head>
+	<body>
+		<div id="header_bkg"></div>
+		<div id="body_content">
+			<form action="upload.html" method="post" enctype="multipart/form-data" accept-charset="utf-8">
+				<input type="file" value="Choose Files" id="upload_cotrol" name="upload1" multiple="true" />
+				<input type="button" value="选择传到iPhone的文档" name="upload1" id="upload_btn"><br/><br/>
+				<input type="submit" value="开始上传文件" id="submit_btn" />
+	    </form>
+    </div>
+    		<script type="text/javascript" language="javascript">
+					document.getElementById("upload_btn").onclick = function() {
+						document.getElementById("upload_cotrol").click();
+					}
+				</script>
+	</body>
+</html>
