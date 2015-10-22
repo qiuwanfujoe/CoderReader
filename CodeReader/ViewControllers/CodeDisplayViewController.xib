@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="5056" systemVersion="13A603" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment defaultVersion="1536" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CodeDisplayViewController">
@@ -18,27 +18,30 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <webView contentMode="scaleToFill" id="jF1-h0-8w5">
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jF1-h0-8w5">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="IBM-XO-BDC"/>
                     </connections>
                 </webView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="Lcc-Zt-7cl">
-                    <rect key="frame" x="32" y="229" width="240" height="128"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lcc-Zt-7cl">
+                    <rect key="frame" x="-10" y="-29" width="95" height="11"/>
                 </imageView>
-                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" id="Ggq-q7-5U4">
-                    <rect key="frame" x="150" y="274" width="37" height="37"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="Ggq-q7-5U4">
+                    <rect key="frame" x="142" y="266" width="37" height="37"/>
                     <color key="color" cocoaTouchSystemColor="darkTextColor"/>
                 </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <constraints>
+                <constraint firstItem="jF1-h0-8w5" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="1a4-18-Uqh"/>
+                <constraint firstItem="jF1-h0-8w5" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8Vd-2l-FZ2"/>
+                <constraint firstAttribute="bottom" secondItem="jF1-h0-8w5" secondAttribute="bottom" id="PjT-Lg-yDD"/>
+                <constraint firstItem="Ggq-q7-5U4" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="XIZ-XR-bXV"/>
+                <constraint firstAttribute="trailing" secondItem="jF1-h0-8w5" secondAttribute="trailing" id="cjG-WS-qB8"/>
+                <constraint firstItem="Ggq-q7-5U4" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ppD-Z7-u3U"/>
+            </constraints>
         </view>
     </objects>
 </document>

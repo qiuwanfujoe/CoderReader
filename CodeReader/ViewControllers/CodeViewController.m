@@ -17,7 +17,6 @@
 #import "GQFileCell.h"
 #import "GQUserGuideView.h"
 #import "GQDeviceutil.h"
-#import "GQCalendarView.h"
 
 @interface CodeViewController ()<UITableViewDelegate, UITableViewDataSource, GQFolderCellDelegate, GQFileCellDelegate>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -25,8 +24,6 @@
 @property (strong, nonatomic) GQRootFolder *rootFolder;
 
 @property (strong, nonatomic) GQUserGuideView *guideView;
-@property (strong, nonatomic) GQCalendarView *calendarView;
-
 @end
 
 @implementation CodeViewController
@@ -44,12 +41,6 @@
     [self registerNotifications];
     self.projects = [NSMutableArray array];
     [self readFolder];
-    NSDictionary *dict = [NSDictionary dictionaryWithObject:self.rootFolder forKey:@"folder"];
-     NSUserDefaults *userDefault = [NSUserDefaults standardUserDefaults];
-    [userDefault setObject:[NSKeyedArchiver archivedDataWithRootObject:dict] forKey:@"userinfo"];
-    
-    NSData *loginInfoData = [userDefault dataForKey:@"userinfo"];
-    NSDictionary *loginInfoDict = [NSKeyedUnarchiver unarchiveObjectWithData:loginInfoData];
 }
 
 - (void)initBaseView
@@ -86,8 +77,6 @@
 
 - (void)showUserGuide
 {
-    [self testCalendarView];//仅仅是测试日历控件，可删除
-    return;
     _guideView.hidden = !_guideView.hidden;
     if (!self.guideView) {
         _guideView= [[[NSBundle mainBundle] loadNibNamed:@"GQUserGuideView" owner:self options:nil] firstObject];
@@ -214,34 +203,6 @@
 - (void)showFileContent:(GQFileCell *)fileCell
 {
     [self showCode:fileCell.file.filePath];
-}
-
-//
-- (void)testCalendarView
-{
-    if (!self.calendarView) {
-        self.calendarView = [[[NSBundle mainBundle] loadNibNamed:@"GQCalendarView" owner:self options:nil] objectAtIndex:0];
-    } else {
-        self.calendarView.hidden = !self.calendarView.hidden;
-        return;
-    }
-    self.calendarView.frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height - _calendarView.viewHeight, _calendarView.viewWidth, _calendarView.viewHeight);
-    NSDateComponents *components = [[NSDateComponents alloc] init];
-    components.year = 2014;
-    components.month = 11;
-    components.day = 1;
-    
-    NSDateComponents *components2 = [[NSDateComponents alloc] init];
-    components2.year = 2015;
-    components2.month = 4;
-    components2.day = 30;
-    
-    NSCalendar *calendar = [[NSCalendar alloc] initWithCalendarIdentifier:NSCalendarIdentifierGregorian];
-    NSDate *startDate = [calendar dateFromComponents:components];
-    NSDate *endDate = [calendar dateFromComponents:components2];
-    
-    [_calendarView prepareWithStartDate:startDate endDate:endDate currentDate:[NSDate date]];
-    [self.view addSubview:_calendarView];
 }
 
 @end

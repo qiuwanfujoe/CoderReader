@@ -13,12 +13,6 @@
 		A332D9AA1988CA0100961AC8 /* GQFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A332D9A91988CA0100961AC8 /* GQFileCell.m */; };
 		A332D9AC1988CA2400961AC8 /* GQFileCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A332D9AB1988CA2400961AC8 /* GQFileCell.xib */; };
 		F30927C9198A7286003DF92D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F30927CB198A7286003DF92D /* Localizable.strings */; };
-		F309F8AC1A0E0B850059C590 /* GQSelectNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = F309F8AB1A0E0B850059C590 /* GQSelectNumberView.m */; };
-		F309F8AE1A0E0B9F0059C590 /* GQSelectNumberView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F309F8AD1A0E0B9F0059C590 /* GQSelectNumberView.xib */; };
-		F317251819FD31A000360346 /* GQCalendarDataCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = F317251719FD31A000360346 /* GQCalendarDataCenter.m */; };
-		F317251B19FD31CF00360346 /* GQCalendarDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F317251A19FD31CF00360346 /* GQCalendarDataModel.m */; };
-		F317251E19FD320E00360346 /* GQCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = F317251D19FD320E00360346 /* GQCalendarView.m */; };
-		F317252119FD431800360346 /* GQDateButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F317252019FD431800360346 /* GQDateButton.m */; };
 		F3202C6D1997C2C600122906 /* CoderObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F3202C6C1997C2C600122906 /* CoderObject.m */; };
 		F336D9D51987CF3300CC5658 /* GQFile.m in Sources */ = {isa = PBXBuildFile; fileRef = F336D9CE1987CF3300CC5658 /* GQFile.m */; };
 		F336D9D61987CF3300CC5658 /* GQFolder.m in Sources */ = {isa = PBXBuildFile; fileRef = F336D9D01987CF3300CC5658 /* GQFolder.m */; };
@@ -67,13 +61,6 @@
 		F34195491983E34C00A08CEB /* shBrushObjc.js in Resources */ = {isa = PBXBuildFile; fileRef = F34195191983E31C00A08CEB /* shBrushObjc.js */; };
 		F3506FF519925369009A251D /* down_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3506FF319925369009A251D /* down_arrow@2x.png */; };
 		F3506FF619925369009A251D /* right_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F3506FF419925369009A251D /* right_arrow@2x.png */; };
-		F350F5F51A061BC9007822B5 /* GQCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F350F5F41A061BC9007822B5 /* GQCalendarView.xib */; };
-		F350F5FE1A061CA6007822B5 /* GQCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F350F5FC1A061CA6007822B5 /* GQCalendarCell.m */; };
-		F350F5FF1A061CA6007822B5 /* GQCalendarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F350F5FD1A061CA6007822B5 /* GQCalendarCell.xib */; };
-		F350F6031A06203A007822B5 /* GQCalendarMonthCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F350F6011A06203A007822B5 /* GQCalendarMonthCell.m */; };
-		F350F6041A06203A007822B5 /* GQCalendarMonthCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F350F6021A06203A007822B5 /* GQCalendarMonthCell.xib */; };
-		F350F6081A062052007822B5 /* GQCalendarWeekCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F350F6061A062052007822B5 /* GQCalendarWeekCell.m */; };
-		F350F6091A062052007822B5 /* GQCalendarWeekCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F350F6071A062052007822B5 /* GQCalendarWeekCell.xib */; };
 		F35D76A3198BCD1B00EAC0EC /* HttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F35D76A2198BCD1B00EAC0EC /* HttpUtil.m */; };
 		F360E19F19B1AAE7006A6662 /* GQJsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F360E19E19B1AAE7006A6662 /* GQJsonUtil.m */; };
 		F360E1A219B1AB92006A6662 /* GQJsonTestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F360E1A119B1AB92006A6662 /* GQJsonTestObject.m */; };
@@ -162,17 +149,6 @@
 		F30927CC198A7369003DF92D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		F30927CD198A7369003DF92D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		F30927CE198A7369003DF92D /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		F309F8AA1A0E0B850059C590 /* GQSelectNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQSelectNumberView.h; sourceTree = "<group>"; };
-		F309F8AB1A0E0B850059C590 /* GQSelectNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQSelectNumberView.m; sourceTree = "<group>"; };
-		F309F8AD1A0E0B9F0059C590 /* GQSelectNumberView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GQSelectNumberView.xib; sourceTree = "<group>"; };
-		F317251619FD31A000360346 /* GQCalendarDataCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQCalendarDataCenter.h; sourceTree = "<group>"; };
-		F317251719FD31A000360346 /* GQCalendarDataCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQCalendarDataCenter.m; sourceTree = "<group>"; };
-		F317251919FD31CF00360346 /* GQCalendarDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQCalendarDataModel.h; sourceTree = "<group>"; };
-		F317251A19FD31CF00360346 /* GQCalendarDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQCalendarDataModel.m; sourceTree = "<group>"; };
-		F317251C19FD320E00360346 /* GQCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQCalendarView.h; sourceTree = "<group>"; };
-		F317251D19FD320E00360346 /* GQCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQCalendarView.m; sourceTree = "<group>"; };
-		F317251F19FD431800360346 /* GQDateButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQDateButton.h; sourceTree = "<group>"; };
-		F317252019FD431800360346 /* GQDateButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQDateButton.m; sourceTree = "<group>"; };
 		F3202C6B1997C2C600122906 /* CoderObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoderObject.h; sourceTree = "<group>"; };
 		F3202C6C1997C2C600122906 /* CoderObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoderObject.m; sourceTree = "<group>"; };
 		F336D9CD1987CF3300CC5658 /* GQFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQFile.h; sourceTree = "<group>"; };
@@ -230,16 +206,6 @@
 		F34195191983E31C00A08CEB /* shBrushObjc.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shBrushObjc.js; sourceTree = "<group>"; };
 		F3506FF319925369009A251D /* down_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "down_arrow@2x.png"; sourceTree = "<group>"; };
 		F3506FF419925369009A251D /* right_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "right_arrow@2x.png"; sourceTree = "<group>"; };
-		F350F5F41A061BC9007822B5 /* GQCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GQCalendarView.xib; sourceTree = "<group>"; };
-		F350F5FB1A061CA6007822B5 /* GQCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQCalendarCell.h; sourceTree = "<group>"; };
-		F350F5FC1A061CA6007822B5 /* GQCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQCalendarCell.m; sourceTree = "<group>"; };
-		F350F5FD1A061CA6007822B5 /* GQCalendarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GQCalendarCell.xib; sourceTree = "<group>"; };
-		F350F6001A06203A007822B5 /* GQCalendarMonthCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQCalendarMonthCell.h; sourceTree = "<group>"; };
-		F350F6011A06203A007822B5 /* GQCalendarMonthCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQCalendarMonthCell.m; sourceTree = "<group>"; };
-		F350F6021A06203A007822B5 /* GQCalendarMonthCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GQCalendarMonthCell.xib; sourceTree = "<group>"; };
-		F350F6051A062052007822B5 /* GQCalendarWeekCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQCalendarWeekCell.h; sourceTree = "<group>"; };
-		F350F6061A062052007822B5 /* GQCalendarWeekCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQCalendarWeekCell.m; sourceTree = "<group>"; };
-		F350F6071A062052007822B5 /* GQCalendarWeekCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GQCalendarWeekCell.xib; sourceTree = "<group>"; };
 		F35D76A1198BCD1B00EAC0EC /* HttpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpUtil.h; sourceTree = "<group>"; };
 		F35D76A2198BCD1B00EAC0EC /* HttpUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpUtil.m; sourceTree = "<group>"; };
 		F360E19D19B1AAE7006A6662 /* GQJsonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQJsonUtil.h; sourceTree = "<group>"; };
@@ -375,34 +341,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F317251519FD307F00360346 /* GQCalendar */ = {
-			isa = PBXGroup;
-			children = (
-				F317251619FD31A000360346 /* GQCalendarDataCenter.h */,
-				F317251719FD31A000360346 /* GQCalendarDataCenter.m */,
-				F317251919FD31CF00360346 /* GQCalendarDataModel.h */,
-				F317251A19FD31CF00360346 /* GQCalendarDataModel.m */,
-				F317251C19FD320E00360346 /* GQCalendarView.h */,
-				F317251D19FD320E00360346 /* GQCalendarView.m */,
-				F350F5F41A061BC9007822B5 /* GQCalendarView.xib */,
-				F317251F19FD431800360346 /* GQDateButton.h */,
-				F317252019FD431800360346 /* GQDateButton.m */,
-				F350F5FB1A061CA6007822B5 /* GQCalendarCell.h */,
-				F350F5FC1A061CA6007822B5 /* GQCalendarCell.m */,
-				F350F5FD1A061CA6007822B5 /* GQCalendarCell.xib */,
-				F350F6001A06203A007822B5 /* GQCalendarMonthCell.h */,
-				F350F6011A06203A007822B5 /* GQCalendarMonthCell.m */,
-				F350F6021A06203A007822B5 /* GQCalendarMonthCell.xib */,
-				F350F6051A062052007822B5 /* GQCalendarWeekCell.h */,
-				F350F6061A062052007822B5 /* GQCalendarWeekCell.m */,
-				F350F6071A062052007822B5 /* GQCalendarWeekCell.xib */,
-				F309F8AA1A0E0B850059C590 /* GQSelectNumberView.h */,
-				F309F8AD1A0E0B9F0059C590 /* GQSelectNumberView.xib */,
-				F309F8AB1A0E0B850059C590 /* GQSelectNumberView.m */,
-			);
-			path = GQCalendar;
-			sourceTree = "<group>";
-		};
 		F3202C671997ABD300122906 /* ObjectToJsonUtils */ = {
 			isa = PBXGroup;
 			children = (
@@ -833,7 +771,6 @@
 		F3E9EA5519853E2200107612 /* CommonUtils */ = {
 			isa = PBXGroup;
 			children = (
-				F317251519FD307F00360346 /* GQCalendar */,
 				F3202C671997ABD300122906 /* ObjectToJsonUtils */,
 				F35D76A0198BCCF400EAC0EC /* HttpUtils */,
 				F336D9CC1987CF3300CC5658 /* FolderReader */,
@@ -940,16 +877,13 @@
 				F3506FF519925369009A251D /* down_arrow@2x.png in Resources */,
 				F34195441983E34B00A08CEB /* Fuel.ruby.js in Resources */,
 				F34195451983E34B00A08CEB /* Fuel.shell.js in Resources */,
-				F309F8AE1A0E0B9F0059C590 /* GQSelectNumberView.xib in Resources */,
 				F336D9F31987D8AF00CC5658 /* CodeViewController.xib in Resources */,
 				F3506FF619925369009A251D /* right_arrow@2x.png in Resources */,
 				F34195461983E34C00A08CEB /* Fuel.sql.js in Resources */,
-				F350F6041A06203A007822B5 /* GQCalendarMonthCell.xib in Resources */,
 				F33F63FC19869B8500620F9D /* html_footer.html in Resources */,
 				A332D9A71988C9A000961AC8 /* GQFolderCell.xib in Resources */,
 				F34195471983E34C00A08CEB /* Lighter.js in Resources */,
 				F34195481983E34C00A08CEB /* mootools.core.js in Resources */,
-				F350F5FF1A061CA6007822B5 /* GQCalendarCell.xib in Resources */,
 				F34195491983E34C00A08CEB /* shBrushObjc.js in Resources */,
 				F34195241983E31C00A08CEB /* Flame.panic.css in Resources */,
 				F39ACABF198C9FFE004F933F /* GQUploadViewController.xib in Resources */,
@@ -961,7 +895,6 @@
 				F33F641819869BA700620F9D /* ruby_footer.html in Resources */,
 				F340BCC9198D350C00962901 /* uploading.gif in Resources */,
 				F33F640419869B8E00620F9D /* js_header.html in Resources */,
-				F350F6091A062052007822B5 /* GQCalendarWeekCell.xib in Resources */,
 				F34195261983E31C00A08CEB /* Flame.tutti.css in Resources */,
 				F33F63F419869A6800620F9D /* objc_header.html in Resources */,
 				F39ACAC1198CA2F7004F933F /* upload_pc_iphone.png in Resources */,
@@ -969,7 +902,6 @@
 				F30927C9198A7286003DF92D /* Localizable.strings in Resources */,
 				F33F640319869B8E00620F9D /* js_footer.html in Resources */,
 				F3CE263D198DF64200420D60 /* GQUserGuideView.xib in Resources */,
-				F350F5F51A061BC9007822B5 /* GQCalendarView.xib in Resources */,
 				F34195231983E31C00A08CEB /* Flame.mocha.css in Resources */,
 				F33F640B19869B9600620F9D /* md_header.html in Resources */,
 				F3CE2640198DFBF100420D60 /* guide1.png in Resources */,
@@ -1005,7 +937,6 @@
 			files = (
 				F3CE26B5198E26AF00420D60 /* DDLog.m in Sources */,
 				F3CE26BD198E26AF00420D60 /* unzip.c in Sources */,
-				F317251819FD31A000360346 /* GQCalendarDataCenter.m in Sources */,
 				F3CE26AA198E26AF00420D60 /* MultipartMessageHeaderField.m in Sources */,
 				F3CE26A4198E26AF00420D60 /* HTTPAuthenticationRequest.m in Sources */,
 				F3CE26B7198E26AF00420D60 /* MyHTTPConnection.m in Sources */,
@@ -1019,29 +950,23 @@
 				F3CE26B4198E26AF00420D60 /* DDFileLogger.m in Sources */,
 				F387D86F1971250500F0D185 /* AppDelegate.m in Sources */,
 				F340BCC6198D289A00962901 /* GQUploadFileCell.m in Sources */,
-				F317251E19FD320E00360346 /* GQCalendarView.m in Sources */,
 				F39ACAC7198CBF6E004F933F /* NSString+CTExtensions.m in Sources */,
 				F336D9F01987D8AF00CC5658 /* CodeDisplayViewController.m in Sources */,
 				F336D9D81987CF3300CC5658 /* GQRootFolder.m in Sources */,
 				F3CE26BC198E26AF00420D60 /* mztools.c in Sources */,
 				F3CE26B1198E26AF00420D60 /* WebSocket.m in Sources */,
 				F3CE26A1198E26AF00420D60 /* DDData.m in Sources */,
-				F350F5FE1A061CA6007822B5 /* GQCalendarCell.m in Sources */,
 				F3CE26A5198E26AF00420D60 /* HTTPConnection.m in Sources */,
-				F309F8AC1A0E0B850059C590 /* GQSelectNumberView.m in Sources */,
 				F3CE26B0198E26AF00420D60 /* HTTPRedirectResponse.m in Sources */,
 				F3CE26A6198E26AF00420D60 /* HTTPMessage.m in Sources */,
 				A332D9A51988C8EB00961AC8 /* GQFolderCell.m in Sources */,
-				F317251B19FD31CF00360346 /* GQCalendarDataModel.m in Sources */,
 				F3CE26A3198E26AF00420D60 /* DDRange.m in Sources */,
 				F3CE26A2198E26AF00420D60 /* DDNumber.m in Sources */,
 				F3CE263B198DF62800420D60 /* GQUserGuideView.m in Sources */,
 				F3CE26A9198E26AF00420D60 /* MultipartMessageHeader.m in Sources */,
-				F317252119FD431800360346 /* GQDateButton.m in Sources */,
 				F3CE26BB198E26AF00420D60 /* ioapi.c in Sources */,
 				F336D9D71987CF3300CC5658 /* GQFolderUtil.m in Sources */,
 				F3CE2644198DFE0200420D60 /* GQDeviceutil.m in Sources */,
-				F350F6081A062052007822B5 /* GQCalendarWeekCell.m in Sources */,
 				F336D9D61987CF3300CC5658 /* GQFolder.m in Sources */,
 				F3CE26B3198E26AF00420D60 /* DDASLLogger.m in Sources */,
 				F3CE26A0198E26AF00420D60 /* GCDAsyncSocket.m in Sources */,
@@ -1053,7 +978,6 @@
 				F3CE26C2198E26E900420D60 /* GQZipUtil.m in Sources */,
 				F3CE26A8198E26AF00420D60 /* MultipartFormDataParser.m in Sources */,
 				F360E1A219B1AB92006A6662 /* GQJsonTestObject.m in Sources */,
-				F350F6031A06203A007822B5 /* GQCalendarMonthCell.m in Sources */,
 				F3E9EA5819853E3E00107612 /* FileReader.m in Sources */,
 				F39ACABE198C9FFE004F933F /* GQUploadViewController.m in Sources */,
 				F3202C6D1997C2C600122906 /* CoderObject.m in Sources */,
@@ -1191,13 +1115,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: liu wei (PD999ZPGFV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wanfu Qiu (DQB3ZL75BM)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeReader/CodeReader-Prefix.pch";
 				INFOPLIST_FILE = "CodeReader/CodeReader-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "02889C56-208A-4196-8721-FEF452A1893C";
+				PROVISIONING_PROFILE = "075c6dda-7445-43fe-996d-d80967e3c82d";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -1207,13 +1131,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: liu wei (PD999ZPGFV)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Wanfu Qiu (DQB3ZL75BM)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CodeReader/CodeReader-Prefix.pch";
 				INFOPLIST_FILE = "CodeReader/CodeReader-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "02889C56-208A-4196-8721-FEF452A1893C";
+				PROVISIONING_PROFILE = "075c6dda-7445-43fe-996d-d80967e3c82d";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
